@@ -64,7 +64,7 @@ fields.
   abort_reason    string    reason for the abort if aborted is true
 
   cids            string    mapping of the context ids to the object ids in
-                            the following form “:;…”
+                            the following form “<CID>:<OID>;…”
 
   data_bytes      count     total number of bytes send as user data
 
